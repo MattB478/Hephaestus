@@ -12,23 +12,19 @@
     <fieldset class="my-form">
         <p>
             <label for="FirstName"> First Name</label>
-            <input type="text" name="First Name" id="FirstName"/>
-            <div class="error" id="FirstNameError"></div>
+            <input type="text" name="First Name" id="FirstName" onblur="removeError(this)"/>
         </p>
         <p>
             <label for="LastName"> Last Name</label>
-            <input type="text" name="Last Name" id="LastName"/>
-            <div class="error" id="LastNameError"></div>
+            <input type="text" name="Last Name" id="LastName"  onblur="removeError(this)"/>
         </p>
         <p>
             <label for="Email"> Email</label>
-            <input type="text" name="Email" id="Email"/>
-            <div class="error" id="EmailError"></div>
+            <input type="text" name="Email" id="Email"  onblur="removeError(this)"/>
         </p>
         <p>
             <label for="PhoneNumber"> Phone Number</label>
-            <input type="text" name="Phone Number" id="PhoneNumber"/>
-            <div class="error" id="PhoneNumberError"></div>
+            <input type="text" name="Phone Number" id="PhoneNumber"  onblur="removeError(this)"/>
         </p>
         <p>
             <label></label>

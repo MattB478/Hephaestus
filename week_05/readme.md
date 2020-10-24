@@ -1,7 +1,7 @@
 # Here is a quick overview on what to do:
 * Remove all the `<div class="error"></div>` tags
 * Rewrite the JavaScript to hightlight the `<input>` field with a red border    
-    * You can use the method `setAttribute('class','my-class-name')` to do soe
+    * You can use the method `setAttribute('class','my-class-name')` to do so
 * When the value is present, remove the border from the `<input>` tag
 
 # Possible enhancements are

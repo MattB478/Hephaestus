@@ -1,14 +1,14 @@
 function formCheck() {
-    let ar = ['FirstName', 'LastName', 'Email', 'PhoneNumber'];
-
-
+    const ar = document.getElementsByTagName('input');
     for (i in ar) {
-        document.getElementById(ar[i] + 'Error').innerText = '';
-        if (document.getElementById(ar[i]).value == '') {
-            document.getElementById(ar[i] + 'Error').innerText = 'Please provide a value';
+
+        ar[i].setAttribute('class', '');
+        if (ar[i].value == '') {
+            ar[i].setAttribute('class', 'error');
             return false;
         }
     }
-    console.log('Form checks out good');
-
+}
+function removeError(element){
+    element.setAttribute('class', '');
 }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dropdown</title>
+    <style>
+        .menu1 {
+            display: none;
+        }
+    </style>
+    <script>
+
+        function show() {
+            document.getElementById('menu1').setAttribute('class','')
+        }
+
+        function hide() {
+            document.getElementById('menu1').setAttribute('class','menu1')
+
+        }
+    </script>
+
+</head>
+<body>
+<div onmouseover="show()" onmouseout="hide()">Tools</div>
+<div class="menu1" id="menu1">
+    Hammer<br>
+    Drill<br>
+    Whatever<br>
+</div>
+
+</body>
+</html>
