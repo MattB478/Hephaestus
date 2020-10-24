@@ -5,7 +5,7 @@ This repo will be used to store all the work you will complete for this class. H
 
 Click on this [Github Link](https://github.com/DigitalCraftsStudents/Hephaestus). Select the green `Code` button and copy the URL as seen here.
 
-![Github URL](./assets/url.png)
+![Github URL](./pictures/url.png)
 
 Open VS Code and go to the terminal. Create a directory that will hold all the files that you will be using. This will be your workspace. Make sure this directory is easy to find.
 
@@ -18,8 +18,8 @@ Once you have created your workspace and have navigated into the  respective dir
 
 If successful, your terminal should look something like this
 
-![Clone Results](./assets/clone.png)
+![Clone Results](./pictures/clone.png)
 
 Now check that the GitHub repo has successfully been cloned onto your local machine. Run `ls` and you should see a directory by the name of Hephaestus present. Enter that directory by running `cd Hephaestus`. 
 
-![List Dir](/assets/ls.png)
+![List Dir](/pictures/ls.png)
