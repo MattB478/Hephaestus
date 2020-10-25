@@ -1,0 +1,53 @@
+.hcontain {
+    display: flex;
+    justify-content: space-evenly; 
+    background-color: teal;  
+}
+
+.vcontain {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.toolBar {
+    width: 30%;
+}
+
+.item {
+    height: 50px;
+}
+
+#m1 {
+    visibility: hidden;
+    justify-content: center;
+    background-color: rgb(252, 173, 121);
+    border-spacing: 8px;
+    padding: 8px;
+}
+
+#m2 {
+    visibility: hidden;
+    justify-content: center;
+    background-color: rgb(252, 173, 121);
+    border-spacing: 8px;
+    padding: 8px;
+}
+
+#m3 {
+    visibility: hidden;
+    justify-content: center;
+    background-color: rgb(252, 173, 121);
+    border-spacing: 8px;
+    padding: 0 8px 8px 0;
+}
+
+h2:hover {
+    background: grey;
+    padding: 2px;
+}
+
+h1 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
