@@ -1,0 +1,67 @@
+<form>
+    <fieldset>
+      <legend>User Information</legend>
+      <p>
+        <label for="first-name"> First Name </label>
+        <input type="text" name="first-name" id="first-name" />
+      </p>
+      <p>
+        <label for="last-name"> Last Name </label>
+        <input type="text" name="Last-name" id="Last-name" />
+      </p>
+      <p>
+        <label for="address"> Home Address </label>
+        <input type="text" name="address" id="address" />
+      </p>
+    </fieldset>
+    <input type="submit" id="submit-button" value="submit" />
+  </form>
+
+
+  <form>
+    <fieldset>
+      <legend>Do you like programming?</legend>
+      <p>
+        <label>
+          <input type="checkbox" id="yes" name="question" value="yes" checked /> Yes
+        </label>
+      </p>
+      <p>
+        <label> <input type="checkbox" id="no" name="question" value="no" /> No </label>
+      </p>
+    </fieldset>
+    <fieldset>
+        <legend>Which is better?</legend>
+        <p>
+          <label>
+            <input type="radio" id="cats" name="question" value="cats" checked /> cats
+          </label>
+        </p>
+        <p>
+          <label> <input type="radio" id="dogs" name="question" value="dogs" /> dogs </label>
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <label for="experience-input"> Tell us about your Experience! </label>
+        <p>
+          <textarea id="experience-input" name="experience">
+      You had a ...
+          </textarea>
+        </p>
+      </fieldset>
+  </form>
+  <fieldset>
+    <label for="genre-select"> What's Your favorite movie genre? </label>
+    <select name="genre" id="genre-select">
+      <option value="" disabled selected>--Please choose an option--</option>
+      <option value="action">Action</option>
+      <option value="adventure">Adventure</option>
+      <option value="comedy">Comedy</option>
+      <option value="documentary">documentary</option>
+      <option value="horror">Horror</option>
+      <option value="mystery">Mystery</option>
+      <option value="Anime">Anime</option>
+    </select>
+  </fieldset>
+  

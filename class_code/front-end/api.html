@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro</title>
+</head>
+
+<body>
+    <button id="button">SOS!</button>
+
+
+    <script>
+        //Listen for an event here. In this case, a button click
+        document.getElementById('button').addEventListener
+        ('click', getTextfromFile);
+    
+        function getTextfromFile() {
+            //XHR object
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', 'random.txt', true);
+
+            console.log('ReadyState: ', xhr.readyState)
+            xhr.onreadystatechange = function() {
+                console.log('ReadyState: ', xhr.readyState)
+                if(this.readyState == 4 && xhr.status == 200) {
+                    console.log(this.responseText)
+                    //console.log
+                }
+            } 
+            xhr.onload = function() {
+                //200 Means OK
+                if(xhr.status == 200) {
+                    console.log(this.responseText);
+                }
+            }
+            //console.log(xhr);
+            xhr.send();
+        }
+        //send request to the server
+    </script>
+</body>
+</html>
