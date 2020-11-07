@@ -1,0 +1,41 @@
+.hcontain {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: grey;
+    height: 80px;
+}
+
+.vcontain {
+    display: flex;
+    flex-direction: column;
+}
+
+.toolBar {
+    width: 30%;
+}
+
+.item {
+    height: 50px;
+    text-align: center;
+}
+
+#m1 {
+    visibility: hidden;
+    background-color: lightblue;
+    width: 150px;
+    text-align: center;
+}
+
+#m2 {
+    visibility: hidden;
+    background-color: lightgreen;
+    width: 200px;
+    text-align: center;
+}
+
+#m3 {
+    visibility: hidden;
+    background-color: lightpink;
+    width: 150px;
+    text-align: center;
+}
