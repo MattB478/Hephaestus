@@ -1,0 +1,56 @@
+/* GLOBAL STYLES */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px 50px;
+}
+
+.button {
+background-color: blue;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: initial;
+font-size: 32px;
+margin: 4px 2px;
+cursor: pointer;
+}
+
+.item {
+    padding: 20px;
+    border-radius: 3px;
+    font-size: 2em;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.item1 {
+    flex-grow: 1;
+}
+
+.item2 {
+    flex-grow: 1;
+}
+
+.item3 {
+    flex-grow: 1;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 30vh;
+}
+
+.bcontainer {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: center;
+    margin-right: 1600px;
+}
